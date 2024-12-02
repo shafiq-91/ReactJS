@@ -5,6 +5,7 @@ import Features from './Ctrl';
 import Maskg from './Maskg';
 import Testimonials from './Testimonials';
 import Effort from './Effort';
+import Started from './Started';
 
 function Home() {
     return (
@@ -51,6 +52,7 @@ function Home() {
             <Maskg />
             <Testimonials />
             <Effort />
+            <Started />
         </>
     );
 }
