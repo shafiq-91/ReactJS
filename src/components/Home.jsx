@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
+import Features from './Ctrl';
 
 function Home() {
     return (
@@ -43,6 +44,7 @@ function Home() {
                     <img src="/img/amd.svg" alt="" className="w-24 sm:w-32 md:w-40 lg:w-48" />
                 </div>
             </div>
+            <Features />
         </>
     );
 }
