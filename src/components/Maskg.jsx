@@ -11,7 +11,7 @@ function Maskg() {
                 <h1 className='text-2xl sm:text-3xl md:text-4xl text-[#0FF1F6] italic font-mono'>
                     prefered email st|
                 </h1>
-                <p className='text-base sm:text-lg md:text-xl w-full sm:w-[400px] py-4'>
+                <p className='text-base sm:text-lg opacity-60 md:text-xl w-full sm:w-[400px] py-4'>
                     You’re in control. Train your aiDR on elements of your Marketing strategy.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center sm:justify-items-start text-lg text-[#14BCB2]">

@@ -4,6 +4,7 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import Features from './Ctrl';
 import Maskg from './Maskg';
 import Testimonials from './Testimonials';
+import Effort from './Effort';
 
 function Home() {
     return (
@@ -49,6 +50,7 @@ function Home() {
             <Features />
             <Maskg />
             <Testimonials />
+            <Effort />
         </>
     );
 }
