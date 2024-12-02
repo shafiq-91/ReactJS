@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'workSans':['Work Sans', 'serif']
+        'workSans':['Work Sans'],
+        'Montserrat': ['Montserrat']
       }
     },
   },

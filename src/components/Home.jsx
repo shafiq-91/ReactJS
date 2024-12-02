@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
 import Features from './Ctrl';
+import Maskg from './Maskg';
 
 function Home() {
     return (
@@ -45,6 +46,7 @@ function Home() {
                 </div>
             </div>
             <Features />
+            <Maskg />
         </>
     );
 }
