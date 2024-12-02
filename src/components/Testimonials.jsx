@@ -60,20 +60,20 @@ function Testimonials() {
                                 <button
                                     aria-label="Previous"
                                     onClick={handlePrev}
-                                    className="w-10 h-10 flex items-center justify-center rounded-lg text-[#ffffff9c] cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-[#0FF1F6] bg-[#96ACAF33] hidden md:block"
+                                    className="w-10 h-10 flex items-center justify-center rounded-lg text-[#ffffff9c] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125 hover:rotate-12 hover:text-[#0FF1F6] bg-[#96ACAF33] hidden md:block"
                                 >
                                     <WestIcon />
                                 </button>
 
                                 <div className="flex flex-col justify-center items-center max-w-md">
-                                    <div className="bg-[#183A40] rounded-full flex items-center justify-center w-16 h-16 cursor-pointer transition-transform duration-500 ease-in-out hover:rotate-180">
+                                    <div className="bg-[#183A40] rounded-full flex items-center justify-center w-16 h-16 cursor-pointer transition-all duration-500 ease-in-out hover:rotate-180 hover:scale-110">
                                         <img src={testimonial.image} alt="Quote Icon" className="w-8 h-8" />
                                     </div>
-                                    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl max-w-md py-6 leading-relaxed">
+                                    <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl max-w-md py-6 leading-relaxed transition-transform duration-300 ease-in-out hover:scale-105 hover:text-[#14BCB2]">
                                         {testimonial.quote}
                                     </p>
-                                    <p className="text-[#0FF1F6] text-base md:text-lg font-bold">{testimonial.name}</p>
-                                    <p className="text-[#96ACAF] text-sm md:text-base">
+                                    <p className="text-[#0FF1F6] text-base md:text-lg font-bold transition-colors duration-300 ease-in-out hover:text-[#96ACAF]">{testimonial.name}</p>
+                                    <p className="text-[#96ACAF] text-sm md:text-base transition-transform duration-300 ease-in-out hover:scale-110">
                                         {testimonial.position} @ {testimonial.company}
                                     </p>
                                 </div>
@@ -82,7 +82,7 @@ function Testimonials() {
                                 <button
                                     aria-label="Next"
                                     onClick={handleNext}
-                                    className="w-10 h-10 flex items-center justify-center rounded-lg text-[#0FF1F6] cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-[#ffffff9c] bg-[#96ACAF33] hidden md:block"
+                                    className="w-10 h-10 flex items-center justify-center rounded-lg text-[#0FF1F6] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125 hover:rotate-12 hover:text-[#ffffff9c] bg-[#96ACAF33] hidden md:block"
                                 >
                                     <EastIcon />
                                 </button>
@@ -99,7 +99,7 @@ function Testimonials() {
                         key={index}
                         aria-label={`Page ${index + 1}`}
                         onClick={() => setCurrentIndex(index)}
-                        className={`w-3 h-3 rounded-full transition-transform duration-300 ease-in-out hover:scale-110 ${currentIndex === index ? 'bg-[#0FF1F6]' : 'bg-[#96ACAF33]'}`}
+                        className={`w-3 h-3 rounded-full transition-transform duration-300 ease-in-out hover:scale-125 ${currentIndex === index ? 'bg-[#0FF1F6]' : 'bg-[#96ACAF33]'}`}
                     ></button>
                 ))}
             </div>
