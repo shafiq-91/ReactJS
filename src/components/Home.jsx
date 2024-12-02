@@ -3,6 +3,7 @@ import { Button } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
 import Features from './Ctrl';
 import Maskg from './Maskg';
+import Testimonials from './Testimonials';
 
 function Home() {
     return (
@@ -47,6 +48,7 @@ function Home() {
             </div>
             <Features />
             <Maskg />
+            <Testimonials />
         </>
     );
 }

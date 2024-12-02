@@ -5,6 +5,7 @@
 body{
  background-color: #012329 !important;
  color: #fff !important;
+ /* overflow-x: hidden; */
 }
 
 ::-webkit-scrollbar{
@@ -16,4 +17,8 @@ body{
   background-color: #012329;
   cursor: pointer;
   border-radius: 10px;
+}
+
+.mgmm{
+  font-weight: 300 !important;
 }
