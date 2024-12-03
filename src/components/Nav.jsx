@@ -111,7 +111,6 @@ function Nav() {
                 marginRight: '10px',
                 backgroundColor: '#0FF1F6',
                 color: '#012329',
-                fontWeight: 'bold',
                 '&:hover': {
                   backgroundColor: blue[100],
                 },
